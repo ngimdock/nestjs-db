@@ -1,0 +1,8 @@
+version: '3.7'
+
+services:
+  dev-db:
+    image: mysql
+  volumes:
+    ports:
+      - 3306:3306
